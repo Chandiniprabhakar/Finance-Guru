@@ -36,11 +36,11 @@ function SideNav() {
       path: "/dashboard/expenses",
     },
   ];
-  const path = usePathname();
+  // const path = usePathname();
 
-  useEffect(() => {
-    console.log(path);
-  }, [path]);
+  // useEffect(() => {
+  //   console.log(path);
+  // }, [path]);
   return (
     <div className="h-screen p-5 border shadow-sm">
       {/* <Image src={'/logo.svg'}

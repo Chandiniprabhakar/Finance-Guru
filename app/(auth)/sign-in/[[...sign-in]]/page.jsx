@@ -32,8 +32,7 @@ export default function Page() {
                 Smart Budgeting with our AI
               </p>
             </div>
-
-            <SignIn />
+            <SignIn afterSignInUrl="/dashboard" afterSignUpUrl="/dashboard" />
           </div>
         </main>
       </div>

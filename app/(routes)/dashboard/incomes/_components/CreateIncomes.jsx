@@ -88,7 +88,7 @@ function CreateIncomes({ refreshData }) {
                   />
                 </div>
                 <div className="mt-2">
-                  <h2 className="text-black font-medium my-1">Montly Amount</h2>
+                  <h2 className="text-black font-medium my-1">Monthly Amount</h2>
                   <Input
                     type="number"
                     placeholder="e.g. ₹5000"
